@@ -55,6 +55,13 @@ Everything is ready to deploy it on dotcloud.
     dotcloud create myapp
     dotcloud push
 
+## Heroku deploy
+
+Everything is ready to deploy it on heroku.
+
+    heroku create
+    git push heroku
+
 ## License
 
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
