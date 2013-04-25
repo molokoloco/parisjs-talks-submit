@@ -13,6 +13,8 @@ Object.keys(config).forEach(function(key) {
     app.set(key, config[key]);
 });
 
-app.listen(8080, function() {
-    console.log('listening on http://localhost:8080');
+
+var port = process.env.PORT || 8080;
+app.listen(port, function() {
+    console.log('listening on http://localhost:'+ port);
 });
